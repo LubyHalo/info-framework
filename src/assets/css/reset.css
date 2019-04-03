@@ -1,0 +1,83 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+    box-sizing: border-box;
+}
+#app{
+    height: 100%;
+}
+a,a:hover{
+    color: inherit!important;
+    text-decoration: none!important;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.full-width{
+    width: 100%;
+}
+.dialog-first-level .el-dialog{
+    min-height: 83%;
+}
+.dialog-second-level .el-dialog{
+    min-height: 79%;
+}
+.dialog-third-level .el-dialog{
+    min-height: 75%;
+}
+.page-header, .page-header>blockquote{
+    margin: 0;
+    cursor: default;
+}
+.page-header{
+    margin-bottom: 15px;
+}
+.page-header>blockquote{
+    border-left-color: #409eff;
+    padding: 5px 15px;
+}
+.el-dialog__header{
+    border: solid 1px #eee;
+}
+.el-dialog__body{
+    padding-bottom: 77px;
+}
+.el-form-item__error{
+    padding-top: 0;
+    padding-bottom: 4px;
+}
+.el-dialog__footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.el-button+.el-button{
+    margin-left: 2px;
+}
+.el-button i{
+    padding-right: 2px
+}
+.el-table--border>.el-table__body-wrapper{
+    overflow-x: hidden;
+}
+.table-pagination{
+    margin-top: 15px;
+}
+.button-group{
+    display: inline-block;
+    line-height: 1;
+}
+.el-form-item {
+    margin-bottom: 15px;
+}
